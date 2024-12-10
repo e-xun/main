@@ -1,0 +1,1092 @@
+/* pc버전 입니다 */
+@media (min-width: 1300px) {
+    /* 헤더입니다 */
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        position: fixed;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    header ul {
+        display: flex;
+        gap: 50px;
+    }
+    header ul a {
+        color: #fff;
+    }
+    .menu_hidden {
+        display: none;
+    }
+    /* 비주얼입니다 */
+    #visual {
+        width: 100%;
+        height: 100vh;
+    }
+    #visual img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* 컨테이너입니다 */
+    #container {
+        width: 100%;
+    }
+
+    /* con1 */
+    .con1 {
+        margin-top: 10%;
+        width: 100%;
+    }
+    .con1_total {
+        width: 100%;
+        display: flex;
+    }
+    .con1_txt {
+        width: 30%;
+        padding: 10% 7%;
+        box-sizing: border-box;
+    }
+    .con1_txt h3 {
+        font-size: 3.5rem;
+        color: #10285c;
+        margin-bottom: 20px;
+    }
+    .con1_txt p {
+        color: #979186;
+    }
+    .con1_box {
+        margin-top: 40px;
+        border: 1px solid #afafaf;
+        width: 120px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .con1_box a {
+        display: block;
+        color: #10285c;
+    }
+    .con1_box:hover {
+        background-color: #10285c;
+    }
+    .con1_box:hover a {
+        color: #fff;
+    }
+    .con1_wrap {
+        width: 70%;
+        overflow: hidden;
+    }
+    .notice {
+        width: 140%;
+        display: flex;
+        gap: 50px;
+        justify-content: space-between;
+    }
+    .notice li {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: calc(100% / 4);
+        height: 600px;
+    }
+    .bg1 {
+        background-image: url(../img/main_slide1.jpg);
+    }
+    .bg2 {
+        background-image: url(../img/main_slide2.jpg);
+    }
+    .bg3 {
+        background-image: url(../img/main_slide3.jpg);
+    }
+    .bg4 {
+        background-image: url(../img/main_slide4.jpg);
+    }
+    .bottom_bar {
+        width: 70%;
+        height: 200px;
+        background-color: #a59289;
+        position: relative;
+        bottom: 140px;
+        z-index: -1;
+    }
+
+    /* con2 */
+    .con2 {
+        width: 100%;
+        background-color: #f9f5f2;
+        padding: 30px;
+        box-sizing: border-box;
+        margin-bottom: 80px;
+    }
+    .con2 ul {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .con2 ul h4 {
+        font-weight: normal;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .con2 ul li {
+        width: calc(100% / 5);
+        border-right: 3px solid #eee;
+    }
+    .con2 ul li:nth-child(5) {
+        border: none;
+    }
+    .con2 ul li img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: 1px solid #ccc;
+        padding: 5px;
+        box-sizing: border-box;
+        opacity: 0.7;
+    }
+    .con2 ul img:hover {
+        opacity: 1;
+    }
+
+    /* con3 */
+    .con3 {
+        background-color: #f6f6f6;
+        width: 100%;
+        padding: 80px 0px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        /* gap: 20px; */
+        position: relative;
+        transform: translateY(100px);
+        transition: 0.8s ease;
+        opacity: 0;
+    }
+    .left {
+        margin-right: 200px;
+    }
+    .topleft {
+        margin-bottom: 20px;
+    }
+    .btmleft .mr {
+        margin-right: 20px;
+    }
+    .toprtxt {
+        text-align: center;
+        padding: 30px;
+        box-sizing: border-box;
+        background-image: url(../img/con3textbg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .toprtxt h2 {
+        margin-bottom: 20px;
+        font-size: 2rem;
+        color: #10285c;
+    }
+    .toprtxt p {
+        color: #807f7e;
+    }
+    .btmright {
+        position: absolute;
+        left: 50%;
+        bottom: 80px;
+        background-color: #f6f6f6;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .btmright img {
+        width: 100%;
+        height: 480px;
+        object-fit: cover;
+    }
+
+    /* con4 */
+    .con4 {
+        position: relative;
+        padding: 120px 90px;
+        background: #eeeae5;
+        overflow: hidden;
+        margin: -10px 0;
+        z-index: 1;
+    }
+    .tit {
+        width: 65%;
+        margin-left: auto;
+        padding-left: 60px;
+        margin-bottom: 60px;
+    }
+    .con4 .tit h2 {
+        font-size: 60px;
+        color: #222;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+    .con4 .tit h3 {
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 0.04em;
+        color: #ab9e8a;
+    }
+    .con4 .tit .line {
+        display: inline-block;
+        width: 160px;
+        height: 1px;
+        background-color: #ab9e8a;
+        margin-right: 15px;
+    }
+    .con4 .rooms-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .con4:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 35%;
+        background: #ab9e8a;
+        z-index: -1;
+    }
+    .con4 .rooms-list {
+        width: 35%;
+        padding-top: 60px;
+    }
+    .con4 .rooms-list .room-name {
+        position: relative;
+        z-index: 10;
+        margin-bottom: 50px;
+    }
+    .con4 .rooms-list .room-name li {
+        width: 100%;
+        height: 47px;
+        line-height: 47px;
+        margin-bottom: 30px;
+        padding: 0 30px;
+        background: transparent;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .con4 .rooms-list .room-name li:hover,
+    .con4 .rooms-list .room-name li.active {
+        background: #766955;
+    }
+    .con4 .rooms-list .room-name li a {
+        display: block;
+        font-family: "SCoreDream";
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        color: #fff;
+    }
+    .con4 .rooms-list .room-info {
+        position: relative;
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+        padding-top: 60px;
+    }
+    .con4 .rooms-list .room-info ul.active {
+        display: block;
+    }
+    .con4 .rooms-list .room-info ul {
+        position: absolute;
+        left: 0;
+        top: 60px;
+        display: none;
+    }
+    .con4 .rooms-list .room-info li {
+        padding-left: 30px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.04em;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    .con4 .rooms-thumb {
+        position: relative;
+        z-index: 5;
+        width: 65%;
+        height: 800px;
+    }
+    .con4 .rooms-thumb .imgbox.active {
+        display: block;
+    }
+    .con4 .rooms-thumb .imgbox {
+        position: absolute;
+        left: -140px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        display: none;
+        transition: 0.4s;
+    }
+    .con4 .rooms-thumb a {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .con4 .rooms-thumb .imgbox img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* 푸터입니다 */
+    footer {
+        width: 100%;
+        height: 200px;
+        background-color: #979186;
+        opacity: 0.7;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+        box-sizing: border-box;
+        color: #fff;
+    }
+    .footer_logo h1 {
+        margin-bottom: 20px;
+    }
+    .data {
+        margin-right: 10%;
+        display: flex;
+        gap: 100px;
+    }
+    .data ul li {
+        margin-bottom: 30px;
+    }
+}
+
+/* 태블릿버전 입니다 */
+@media (min-width: 760px) and (max-width: 1300px) {
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        position: fixed;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    header ul {
+        display: flex;
+        gap: 50px;
+    }
+    header ul a {
+        color: #fff;
+    }
+    .menu_hidden {
+        display: none;
+    }
+    /* 비주얼입니다 */
+    #visual {
+        width: 100%;
+        height: 100vh;
+    }
+    #visual img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* 컨테이너입니다 */
+    #container {
+        width: 100%;
+    }
+
+    /* con1 */
+    .con1 {
+        margin-top: 10%;
+        width: 100%;
+    }
+    .con1_total {
+        width: 100%;
+        display: flex;
+    }
+    .con1_txt {
+        width: 30%;
+        padding: 10% 7%;
+        box-sizing: border-box;
+    }
+    .con1_txt h3 {
+        font-size: 3.5rem;
+        color: #10285c;
+        margin-bottom: 20px;
+    }
+    .con1_txt p {
+        color: #979186;
+    }
+    .con1_box {
+        margin-top: 40px;
+        border: 1px solid #afafaf;
+        width: 120px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .con1_box a {
+        display: block;
+        color: #10285c;
+    }
+    .con1_box:hover {
+        background-color: #10285c;
+    }
+    .con1_box:hover a {
+        color: #fff;
+    }
+    .con1_wrap {
+        width: 70%;
+        overflow: hidden;
+    }
+    .notice {
+        width: 140%;
+        display: flex;
+        gap: 50px;
+        justify-content: space-between;
+    }
+    .notice li {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: calc(100% / 4);
+        height: 600px;
+    }
+    .bg1 {
+        background-image: url(../img/main_slide1.jpg);
+    }
+    .bg2 {
+        background-image: url(../img/main_slide2.jpg);
+    }
+    .bg3 {
+        background-image: url(../img/main_slide1.jpg);
+    }
+    .bg4 {
+        background-image: url(../img/main_slide2.jpg);
+    }
+    .bottom_bar {
+        width: 70%;
+        height: 200px;
+        background-color: #a59289;
+        position: relative;
+        bottom: 140px;
+        z-index: -1;
+    }
+
+    /* con2 */
+    .con2 {
+        width: 100%;
+        background-color: #f9f5f2;
+        padding: 30px;
+        box-sizing: border-box;
+        margin-bottom: 80px;
+    }
+    .con2 ul {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .con2 ul h4 {
+        font-weight: normal;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .con2 ul li {
+        width: calc(100% / 5 - 10px);
+        border-right: 3px solid #eee;
+    }
+    .con2 ul li:nth-child(5) {
+        border: none;
+    }
+    .con2 ul li img {
+        border-radius: 50%;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border: 1px solid #ccc;
+        padding: 5px;
+        box-sizing: border-box;
+        opacity: 0.7;
+    }
+    .con2 ul img:hover {
+        opacity: 1;
+    }
+
+    /* con3 */
+    .con3 {
+        background-color: #f6f6f6;
+        width: 100%;
+        padding: 80px 0px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        /* gap: 20px; */
+        position: relative;
+        transform: translateY(100px);
+        transition: 0.8s ease;
+        opacity: 0;
+    }
+    .topleft {
+        margin-bottom: 20px;
+    }
+    .topleft img {
+        width: 100%;
+    }
+    .btmleft .mr {
+        margin-right: 20px;
+    }
+    .toprtxt {
+        text-align: center;
+        /* padding: 30px; */
+        box-sizing: border-box;
+        background-image: url(../img/con3textbg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .toprtxt h2 {
+        margin-bottom: 20px;
+        font-size: 2rem;
+        color: #10285c;
+    }
+    .toprtxt p {
+        color: #807f7e;
+    }
+    .btmright {
+        position: absolute;
+        left: 50%;
+        bottom: 80px;
+        background-color: #f6f6f6;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .btmright img {
+        width: 100%;
+        height: 480px;
+        object-fit: cover;
+    }
+
+    /* con4 */
+    .con4 {
+        position: relative;
+        padding: 120px 90px;
+        background: #eeeae5;
+        overflow: hidden;
+        margin: -10px 0;
+        z-index: 1;
+    }
+    .tit {
+        width: 65%;
+        margin-left: auto;
+        padding-left: 60px;
+        margin-bottom: 60px;
+    }
+    .con4 .tit h2 {
+        font-size: 60px;
+        color: #222;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+    .con4 .tit h3 {
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 0.04em;
+        color: #ab9e8a;
+    }
+    .con4 .tit .line {
+        display: inline-block;
+        width: 160px;
+        height: 1px;
+        background-color: #ab9e8a;
+        margin-right: 15px;
+    }
+    .con4 .rooms-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .con4:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 35%;
+        background: #ab9e8a;
+        z-index: -1;
+    }
+    .con4 .rooms-list {
+        width: 35%;
+        padding-top: 60px;
+    }
+    .con4 .rooms-list .room-name {
+        position: relative;
+        z-index: 10;
+        margin-bottom: 50px;
+    }
+    .con4 .rooms-list .room-name li {
+        width: 100%;
+        height: 47px;
+        line-height: 47px;
+        margin-bottom: 30px;
+        padding: 0 30px;
+        background: transparent;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .con4 .rooms-list .room-name li:hover,
+    .con4 .rooms-list .room-name li.active {
+        background: #766955;
+    }
+    .con4 .rooms-list .room-name li a {
+        display: block;
+        font-family: "SCoreDream";
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        color: #fff;
+    }
+    .con4 .rooms-list .room-info {
+        position: relative;
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+        padding-top: 60px;
+    }
+    .con4 .rooms-list .room-info ul.active {
+        display: block;
+    }
+    .con4 .rooms-list .room-info ul {
+        position: absolute;
+        left: 0;
+        top: 60px;
+        display: none;
+        z-index: 10;
+    }
+    .con4 .rooms-list .room-info li {
+        padding-left: 30px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.04em;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    .con4 .rooms-thumb {
+        position: relative;
+        z-index: 5;
+        width: 65%;
+        height: 800px;
+    }
+    .con4 .rooms-thumb .imgbox.active {
+        display: block;
+    }
+    .con4 .rooms-thumb .imgbox {
+        position: absolute;
+        left: -140px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        display: none;
+        transition: 0.4s;
+    }
+    .con4 .rooms-thumb a {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .con4 .rooms-thumb .imgbox img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* 푸터입니다 */
+    footer {
+        width: 100%;
+        height: 200px;
+        background-color: #979186;
+        opacity: 0.7;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+        box-sizing: border-box;
+        color: #fff;
+    }
+    .footer_logo h1 {
+        margin-bottom: 20px;
+    }
+    .data {
+        margin-right: 10%;
+        display: flex;
+        gap: 100px;
+    }
+    .data ul li {
+        margin-bottom: 30px;
+    }
+}
+
+/* 모바일버전 입니다 */
+@media (max-width: 760px) {
+    /* 헤더입니다 */
+    header {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        position: fixed;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    header h1 img {
+        width: 80%;
+        height: 100%;
+    }
+    header ul {
+        display: none;
+    }
+    header .menu_hidden {
+        width: 100%;
+        /* position: relative; */
+    }
+    .icon {
+        z-index: 3;
+        position: relative;
+        top: 0px;
+        right: -90%;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+        z-index: 2;
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+    .nav p a {
+        color: #fff;
+    }
+    .nav p {
+        margin-bottom: 20px;
+    }
+    /* 비주얼입니다 */
+    #visual {
+        width: 100%;
+        /* height: 100vh; */
+    }
+    #visual img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* 컨테이너입니다 */
+    #container {
+        width: 100%;
+    }
+
+    /* con1 */
+    .con1 {
+        margin-top: 10%;
+        width: 100%;
+    }
+    .con1_total {
+        width: 100%;
+        display: block;
+    }
+    .con1_txt {
+        width: 100%;
+        padding: 10%;
+        box-sizing: border-box;
+    }
+    .con1_txt h3 {
+        font-size: 3.5rem;
+        color: #10285c;
+        margin-bottom: 20px;
+    }
+    .con1_txt p {
+        color: #979186;
+    }
+    .con1_box {
+        margin-top: 40px;
+        border: 1px solid #afafaf;
+        width: 120px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .con1_box a {
+        display: block;
+        color: #10285c;
+    }
+    .con1_box:hover {
+        background-color: #10285c;
+    }
+    .con1_box:hover a {
+        color: #fff;
+    }
+    .con1_wrap {
+        width: 100%;
+        overflow: hidden;
+    }
+    .notice {
+        width: 390%;
+        display: flex;
+        gap: 50px;
+        justify-content: space-between;
+    }
+    .notice li {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: calc(100% / 4);
+        height: 400px;
+    }
+    .bg1 {
+        background-image: url(../img/main_slide1.jpg);
+    }
+    .bg2 {
+        background-image: url(../img/main_slide2.jpg);
+    }
+    .bg3 {
+        background-image: url(../img/main_slide1.jpg);
+    }
+    .bg4 {
+        background-image: url(../img/main_slide2.jpg);
+    }
+    .bottom_bar {
+        display: none;
+    }
+
+    /* con2 */
+    .con2 {
+        width: 100%;
+        margin: 80px 0px;
+        background-color: #f9f5f2;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    .con2 ul {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .con2 ul h4 {
+        font-weight: normal;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .con2 ul li {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .con2 ul li img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: 1px solid #ccc;
+        padding: 5px;
+        box-sizing: border-box;
+        opacity: 0.7;
+    }
+    .con2 ul img:hover {
+        opacity: 1;
+    }
+
+    /* con3 */
+    .con3 {
+        background-color: #f6f6f6;
+        width: 100%;
+        display: block;
+        transform: translateY(100px);
+        transition: 0.8s ease;
+        opacity: 0;
+    }
+    .left {
+        display: none;
+    }
+    .toprtxt {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+        background-image: url(../img/con3textbg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .toprtxt h2 {
+        margin-bottom: 20px;
+        font-size: 2rem;
+        color: #10285c;
+    }
+    .toprtxt p {
+        color: #807f7e;
+    }
+    .btmright {
+        width: 100%;
+        background-color: #f6f6f6;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .btmright img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* con4 */
+    .con4 {
+        position: relative;
+        padding: 120px 90px;
+        background: #eeeae5;
+        overflow: hidden;
+        margin: -10px 0;
+        z-index: 1;
+    }
+    .tit {
+        width: 65%;
+        margin-left: auto;
+        padding-left: 60px;
+        margin-bottom: 60px;
+    }
+    .con4 .tit h2 {
+        font-size: 30px;
+        color: #222;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+    .con4 .tit h3 {
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 0.04em;
+        color: #ab9e8a;
+    }
+    .con4 .tit .line {
+        display: inline-block;
+        width: 80px;
+        height: 1px;
+        background-color: #ab9e8a;
+        margin-right: 15px;
+    }
+    .con4 .rooms-wrap {
+        display: block;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .con4:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 35%;
+        background: #ab9e8a;
+        z-index: -1;
+    }
+    .con4 .rooms-list {
+        width: 35%;
+        padding-top: 60px;
+    }
+    .con4 .rooms-list .room-name {
+        position: relative;
+        z-index: 10;
+        margin-bottom: 50px;
+    }
+    .con4 .rooms-list .room-name li {
+        width: 100%;
+        /* height: 47px;
+        line-height: 47px; */
+        margin-bottom: 30px;
+        padding: 10px 30px;
+        background: transparent;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .con4 .rooms-list .room-name li:hover,
+    .con4 .rooms-list .room-name li.active {
+        background: #766955;
+    }
+    .con4 .rooms-list .room-name li a {
+        display: block;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: #fff;
+    }
+    .con4 .rooms-list .room-info {
+        display: none;
+    }
+    .con4 .rooms-thumb {
+        position: relative;
+        z-index: 5;
+        width: 100%;
+        height: 200px;
+    }
+    .con4 .rooms-thumb .imgbox.active {
+        display: block;
+    }
+    .con4 .rooms-thumb .imgbox {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0px;
+        display: none;
+        transition: 0.4s;
+        width: 500px;
+        height: 100%;
+    }
+    .con4 .rooms-thumb a {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .con4 .rooms-thumb .imgbox img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* 푸터입니다 */
+    footer {
+        margin-top: 80px;
+        width: 100%;
+        /* height: 200px; */
+        background-color: #979186;
+        opacity: 0.7;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        color: #fff;
+    }
+    .footer_logo h1 {
+        margin-bottom: 20px;
+    }
+    .data {
+        margin-top: 20px;
+    }
+    .data ul li {
+        margin-bottom: 10px;
+    }
+}
