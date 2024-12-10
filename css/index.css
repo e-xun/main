@@ -449,11 +449,11 @@
         color: #fff;
     }
     .con1_wrap {
-        width: 70%;
+        width: 100%;
         overflow: hidden;
     }
     .notice {
-        width: 140%;
+        width: 280%;
         display: flex;
         gap: 50px;
         justify-content: space-between;

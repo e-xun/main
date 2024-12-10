@@ -94,6 +94,7 @@
     .con2_txt {
         position: sticky;
         top: 0;
+        left: 100px;
         width: 50%;
         height: 100vh;
     }
@@ -605,8 +606,9 @@
     .con2_txt {
         /* position: sticky;
         top: 0; */
-        width: 100%;
+        width: 50%;
         /* height: 100vh; */
+        margin: auto;
     }
     .con2_txt h4 {
         margin-top: 200px;
