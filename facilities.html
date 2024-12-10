@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Facilities</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+            integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/facilities.css" />
+
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/splitting.min.js"></script>
+    </head>
+    <body>
+        <!-- 메뉴헤더입니다 -->
+        <header>
+            <h1>
+                <a href="index.html"><img src="img/main_logo.png" /></a>
+            </h1>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="room.html">Room</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+            <!-- 히든메뉴입니다 -->
+            <div class="menu_hidden">
+                <div class="icon">
+                    <p>
+                        <i class="fa-solid fa-bars"></i>
+                    </p>
+                </div>
+                <div class="nav">
+                    <p><a href="about.html">About</a></p>
+                    <p><a href="room.html">Room</a></p>
+                    <p><a href="facilities.html">Facilities</a></p>
+                    <p><a href="travel.html">Travel</a></p>
+                    <p><a href="#">Community</a></p>
+                </div>
+            </div>
+        </header>
+
+        <!-- 비주얼 입니다 -->
+        <div id="visual">
+            <img src="img/favisual.jpg" />
+        </div>
+
+        <!-- 푸터입니다 -->
+        <footer>
+            <div class="footer_logo">
+                <h1><img src="img/main_logo.png" /></h1>
+                <p>© 2024 Raum The Hanok CO. BY Eunjin</p>
+            </div>
+            <div class="data">
+                <ul>
+                    <li>
+                        <p>CEO</p>
+                        <h4>Kim Eun-Jin</h4>
+                    </li>
+                    <li>
+                        <p>Business license number</p>
+                        <h4>123-12-12345</h4>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>Address</p>
+                        <h4>23 Bomun Village 4-gil, Gyeongju-si</h4>
+                    </li>
+
+                    <li>
+                        <p>Fax</p>
+                        <h4>1234-123-1234</h4>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script>
+            gsap.registerPlugin(ScrollTrigger);
+        </script>
+
+        <script src="js/facilities.js"></script>
+    </body>
+</html>
