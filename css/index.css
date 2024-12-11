@@ -26,11 +26,18 @@
     #visual {
         width: 100%;
         height: 100vh;
+        position: relative;
     }
     #visual img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+
+    #visual .visual_txt h2 {
+        font-size: 5rem;
+        color: #fff;
+        font-family: "Playfair Display", serif;
     }
 
     /* 컨테이너입니다 */
@@ -56,9 +63,11 @@
         font-size: 3.5rem;
         color: #10285c;
         margin-bottom: 20px;
+        font-family: "Playfair Display", serif;
     }
     .con1_txt p {
         color: #979186;
+        font-family: "Playfair Display", serif;
     }
     .con1_box {
         margin-top: 40px;
@@ -135,6 +144,7 @@
         font-weight: normal;
         font-size: 20px;
         margin: 10px;
+        font-family: "Playfair Display", serif;
     }
     .con2 ul li {
         width: calc(100% / 5);
@@ -193,6 +203,7 @@
         margin-bottom: 20px;
         font-size: 2rem;
         color: #10285c;
+        font-family: "Playfair Display", serif;
     }
     .toprtxt p {
         color: #807f7e;
@@ -231,6 +242,7 @@
         color: #222;
         margin-bottom: 20px;
         font-weight: normal;
+        font-family: "Playfair Display", serif;
     }
     .con4 .tit h3 {
         font-size: 16px;
@@ -425,6 +437,7 @@
         font-size: 3.5rem;
         color: #10285c;
         margin-bottom: 20px;
+        font-family: "Playfair Display", serif;
     }
     .con1_txt p {
         color: #979186;
@@ -439,6 +452,7 @@
         font-size: 20px;
     }
     .con1_box a {
+        font-family: "Playfair Display", serif;
         display: block;
         color: #10285c;
     }
@@ -504,6 +518,7 @@
         font-weight: normal;
         font-size: 20px;
         margin: 10px;
+        font-family: "Playfair Display", serif;
     }
     .con2 ul li {
         width: calc(100% / 5 - 10px);
@@ -562,6 +577,7 @@
         margin-bottom: 20px;
         font-size: 2rem;
         color: #10285c;
+        font-family: "Playfair Display", serif;
     }
     .toprtxt p {
         color: #807f7e;
@@ -600,6 +616,7 @@
         color: #222;
         margin-bottom: 20px;
         font-weight: normal;
+        font-family: "Playfair Display", serif;
     }
     .con4 .tit h3 {
         font-size: 16px;
@@ -825,6 +842,7 @@
         font-size: 3.5rem;
         color: #10285c;
         margin-bottom: 20px;
+        font-family: "Playfair Display", serif;
     }
     .con1_txt p {
         color: #979186;
@@ -841,6 +859,7 @@
     .con1_box a {
         display: block;
         color: #10285c;
+        font-family: "Playfair Display", serif;
     }
     .con1_box:hover {
         background-color: #10285c;
@@ -898,6 +917,7 @@
         font-weight: normal;
         font-size: 20px;
         margin: 10px;
+        font-family: "Playfair Display", serif;
     }
     .con2 ul li {
         margin-top: 20px;
@@ -943,6 +963,7 @@
         margin-bottom: 20px;
         font-size: 2rem;
         color: #10285c;
+        font-family: "Playfair Display", serif;
     }
     .toprtxt p {
         color: #807f7e;
@@ -978,6 +999,7 @@
         color: #222;
         margin-bottom: 20px;
         font-weight: normal;
+        font-family: "Playfair Display", serif;
     }
     .con4 .tit h3 {
         font-size: 12px;
