@@ -135,10 +135,10 @@
     /* banner */
     .banner {
         margin-top: 20%;
-        width: 80%;
-        left: 50%;
-        top: 0px;
-        transform: translateX(-50%);
+        width: 100%;
+        /* left: 0px;
+        top: 0px; */
+        /* transform: translateX(-20%); */
         position: relative;
     }
     .banner img {
@@ -242,6 +242,7 @@
         background: #fafafa;
         display: none;
     }
+
     .listwrap .list .answer > div {
         width: 100%;
         display: flex;
@@ -259,6 +260,9 @@
         font-weight: 400;
         color: #888;
         line-height: 1.6em;
+    }
+    .list .ask .tit.active:after {
+        transform: translateY(-50%) rotate(135deg);
     }
 
     /* 문의 */
@@ -481,10 +485,10 @@
     /* banner */
     .banner {
         margin-top: 20%;
-        width: 80%;
-        left: 50%;
-        top: 0px;
-        transform: translateX(-50%);
+        width: 100%;
+        /* left: 0px;
+        top: 0px; */
+        /* transform: translateX(-20%); */
         position: relative;
     }
     .banner img {
@@ -606,6 +610,9 @@
         font-weight: 400;
         color: #888;
         line-height: 1.6em;
+    }
+    .list .ask .tit.active:after {
+        transform: translateY(-50%) rotate(135deg);
     }
 
     /* 문의 */
@@ -850,10 +857,10 @@
     /* banner */
     .banner {
         margin-top: 20%;
-        width: 80%;
-        left: 50%;
-        top: 0px;
-        transform: translateX(-50%);
+        width: 100%;
+        /* left: 0px;
+        top: 0px; */
+        /* transform: translateX(-20%); */
         position: relative;
     }
     .banner img {
@@ -976,6 +983,9 @@
         font-weight: 400;
         color: #888;
         line-height: 1.6em;
+    }
+    .list .ask .tit.active:after {
+        transform: translateY(-50%) rotate(135deg);
     }
 
     /* 문의 */
